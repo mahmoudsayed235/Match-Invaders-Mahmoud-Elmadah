@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private playerData playerdata;
     private void Awake()
     {
-        dataPath = Path.Combine(Application.dataPath, "data.txt");
+        dataPath = Path.Combine(Application.streamingAssetsPath, "data.txt");
 
 
 
